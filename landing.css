@@ -149,21 +149,27 @@ nav {
     border-radius: 5px;
     color: black;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.6s ease;
 }
+
 .blis:hover{
     background-color: transparent;
     border-color: gold;
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
+
+.blis:active{
+    transform: scale(0.92);
+}
+
 
 .hero{
     background-color: rgb(8, 21, 59);
     background-image:
     linear-gradient(rgba(8, 21, 59, 0.8),
     rgba(8, 21, 59, 0.8)),
-    url("construction.jpg");
+    url("Image/construction.jpg");
     /* color: white; */
     background-size: cover;
     background-position: center;
@@ -236,41 +242,46 @@ nav {
     margin-top: 30px;
     width: 230px;
     height: 50px;
-
     background-color: gold;
     border-radius: 5px;
-
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.4s ease;
 }
+
 .but-2:hover{
-    background-color:transparent;
+    background-color: transparent;
     border-color: gold;
     color: white;
-    transform: scale(0.9);
+    transform: scale(1.02);
+}
+
+.but-2:active{
+    transform: scale(0.92);
 }
 .but-22{
     margin-top: 30px;
     width: 180px;
-    height: 50px; 
-    
+    height: 50px;
     background-color: transparent;
     border-color: gold;
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    transition: 0.3s;
-
-
+    transition: all 0.4s ease;
     font-size: 16px;
     font-weight: bold;
 }
+
 .but-22:hover{
     background-color: gold;
     color: black;
-    transform: scale(0.9);
+    transform: scale(1.05);
+}
+
+.but-22:active{
+    transform: scale(0.92);
 }
 .frisbut{
     position: relative;
@@ -516,7 +527,6 @@ nav {
     width: 200px;
     height: 50px;
 
-    /* border: none; */
     border-radius: 5px;
 
     background-color: gold;
@@ -525,15 +535,18 @@ nav {
 
     cursor: pointer;
 
-    transition: 0.3s;
+    transition: all 0.7s ease;
 }
 
 .typb:hover{
     transform: scale(1.05);
     background-color: transparent;
     color: white;
-    /* border-color: gold; */
     border: 2px solid gold;
+}
+
+.typb:active{
+    transform: scale(0.92);
 }
 .footer{
     background-color: rgb(5, 15, 40);
